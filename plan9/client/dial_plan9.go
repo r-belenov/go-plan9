@@ -26,6 +26,10 @@ func MountService(service string) (*Fsys, error) {
 	panic("unimplemented")
 }
 
+func MountServiceAname(service, aname string) (*Fsys, error) {
+	panic("unimplemented")
+}
+
 // Namespace returns the path to the name space directory.
 func Namespace() string {
 	return "/srv"
