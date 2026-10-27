@@ -14,3 +14,7 @@ require (
 	github.com/go-gl/glfw/v3.3/glfw v0.0.0-20200222043503-6f7a984d4dc4 // indirect
 	golang.org/x/image v0.0.0-20190802002840-cff245a6509b // indirect
 )
+
+replace 9fans.net/go/plan9 => /usr/roman/projects/go-plan9/plan9
+
+replace 9fans.net/go/plan9/srv9p => /usr/roman/projects/go-plan9/plan9/srv9p
